@@ -1,0 +1,107 @@
+.inter {
+    font-family: 'Inter', sans-serif;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#banner {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.87), rgba(255, 255, 255, 0)), url("../images/banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#banner .row {
+    padding: 135px;
+}
+
+h2 {
+    font-size: 42px;
+}
+
+#banner .col-md-4 {
+    width: 36%;
+}
+
+.inter.btn {
+    text-decoration: none;
+    background: #EF233C;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 5px;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 12px;
+}
+
+#donation {
+    padding: 40px 0;
+}
+
+#donation .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#donation .row .col-md-6 {
+    width: 40%;
+}
+
+#donation .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#suvive {
+    padding: 40px 0;
+}
+
+#suvive .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#suvive .row .col-md-6 {
+    width: 40%;
+}
+
+#suvive .left img {
+    /* max-width: 100%; */
+    width: 100%;
+}
+
+#suvive .right .custom {
+    padding-left: 112px;
+}
+
+#direct-help .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    text-align: center;
+}
+
+#direct-help .custom {
+    width: 40%;
+    text-align: center;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
