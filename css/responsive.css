@@ -88,6 +88,11 @@
 
     }
 
+    #charity .main .custom {
+        width: 75% !important;
+        text-align: center;
+    }
+
 }
 
 
@@ -117,6 +122,13 @@
 
 @media only screen and (max-width:788px) {
 
+    /* .col-md-6 {
+        width: 90% !important;
+    }
+
+    #donation .row .col-md-6 {
+        width: 90% !important;
+    } */
 
     #charity .card-row {
         flex-direction: column;
@@ -149,5 +161,53 @@
         object-fit: cover;
     }
 
+
+}
+
+@media only screen and (max-width:556px) {
+
+    h2 {
+        font-size: 30px !important;
+    }
+
+    #banner .row {
+        padding: 70px 16px !important;
+    }
+
+    #donation .row .col-md-6 {
+        width: 90% !important;
+    }
+
+    #suvive {
+        padding: 10px 0 !important;
+    }
+
+    #suvive .row .col-md-6 {
+        width: 90% !important;
+    }
+
+    #direct-help .main .custom {
+        width: 88% !important;
+    }
+
+    #direct-help .row.direct-row {
+        padding: 0 !important;
+    }
+
+    #direct-help .col-md-10 {
+        padding-left: 12px !important;
+    }
+
+    #prayer .row {
+        padding: 20px 16px !important;
+    }
+
+    #charity .main .custom {
+        width: 90% !important;
+    }
+
+    #charity .card-row {
+        padding: 30px 16px !important;
+    }
 
 }
