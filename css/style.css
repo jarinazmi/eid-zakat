@@ -176,6 +176,7 @@ video {
 
 #direct-help .col-md-10 {
     width: 80%;
+    padding-left: 5px;
 }
 
 .box {
@@ -244,7 +245,7 @@ video {
 
 #charity .card-row .col-md-4 .custom {
     border: 1px solid #D9D9D9 !important;
-    border-radius: 10px;
+    border-radius: 16px;
 
 }
 
